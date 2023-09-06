@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Create Project">
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task1/FifthProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2UzVSJwPLbXoag1dT0fP3pR9L9c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,10 +39,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FifthProgram">
+    <configuration name="FifthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FifthProgram" />
+      <module name="JavaFirstMirea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FirstProgram" />
       <module name="JavaFirstMirea" />
@@ -55,8 +70,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FourthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FourthProgram" />
+      <module name="JavaFirstMirea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.SecondProgram" />
+      <module name="JavaFirstMirea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.ThirdProgram" />
+      <module name="JavaFirstMirea" />
+      <option name="PROGRAM_PARAMETERS" value="ada vava kovo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.FifthProgram" />
+      <item itemvalue="Application.FourthProgram" />
+      <item itemvalue="Application.FirstProgram" />
+      <item itemvalue="Application.SecondProgram" />
+      <item itemvalue="Application.ThirdProgram" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FifthProgram" />
+        <item itemvalue="Application.FourthProgram" />
+        <item itemvalue="Application.ThirdProgram" />
+        <item itemvalue="Application.SecondProgram" />
         <item itemvalue="Application.FirstProgram" />
       </list>
     </recent_temporary>
@@ -78,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693944663695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create Project">
+      <option name="closed" value="true" />
+      <created>1693945194657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693945194657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
