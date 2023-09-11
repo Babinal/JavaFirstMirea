@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="First work done">
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/task1/ThirdProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/task1/ThirdProgram.java" afterDir="false" />
+    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Mini changes in ThirdProgram">
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -37,12 +42,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "onboarding.tips.debug.path": "C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java",
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FifthProgram">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.mirea.task2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestShop">
     <configuration name="FifthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FifthProgram" />
       <module name="JavaFirstMirea" />
@@ -56,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FirstProgram" />
+    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestAuthor" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="PATTERN" value="ru.mirea.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FourthProgram" />
+    <configuration name="TestBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestBall" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="PATTERN" value="ru.mirea.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.SecondProgram" />
+    <configuration name="TestCircleNPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestCircleNPoint" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="PATTERN" value="ru.mirea.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,32 +111,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.ThirdProgram" />
+    <configuration name="TestShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestShop" />
       <module name="JavaFirstMirea" />
-      <option name="PROGRAM_PARAMETERS" value="ada vava kovo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="PATTERN" value="ru.mirea.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestAuthor" />
+      <item itemvalue="Application.TestBall" />
+      <item itemvalue="Application.TestCircleNPoint" />
+      <item itemvalue="Application.TestShop" />
       <item itemvalue="Application.FifthProgram" />
-      <item itemvalue="Application.FourthProgram" />
-      <item itemvalue="Application.FirstProgram" />
-      <item itemvalue="Application.SecondProgram" />
-      <item itemvalue="Application.ThirdProgram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestShop" />
+        <item itemvalue="Application.TestCircleNPoint" />
+        <item itemvalue="Application.TestBall" />
+        <item itemvalue="Application.TestAuthor" />
         <item itemvalue="Application.FifthProgram" />
-        <item itemvalue="Application.FourthProgram" />
-        <item itemvalue="Application.ThirdProgram" />
-        <item itemvalue="Application.SecondProgram" />
-        <item itemvalue="Application.FirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694030042548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mini changes in ThirdProgram">
+      <option name="closed" value="true" />
+      <created>1694030292101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694030292101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
     <MESSAGE value="First work done" />
-    <option name="LAST_COMMIT_MESSAGE" value="First work done" />
+    <MESSAGE value="Mini changes in ThirdProgram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini changes in ThirdProgram" />
   </component>
 </project>
