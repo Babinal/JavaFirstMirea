@@ -43,15 +43,10 @@ public class Dog {
 }
 
 class DogKennel {
-    private ArrayList<Dog> ArrayDogs = new ArrayList();
+    private final ArrayList<Dog> ArrayDogs;
 
     public DogKennel(ArrayList<Dog> arrayDogs) {
-        ArrayDogs = arrayDogs;
-    }
-
-    public void addDog(String nickname, int age) {
-        Dog NewDog = new Dog(nickname, age);
-        this.ArrayDogs.add(NewDog);
+        this.ArrayDogs = arrayDogs;
     }
 
     @Override
@@ -62,7 +57,7 @@ class DogKennel {
     }
 
     public static void main(String[] args) {
-        ArrayList<Dog> ArrayDogs = new ArrayList();
+        ArrayList<Dog> ArrayDogs = new ArrayList<>();
         Scanner src = new Scanner(System.in);
         System.out.print("Введите кол-во собак в приюте: ");
         int numDogs = src.nextInt();
@@ -76,76 +71,74 @@ class DogKennel {
             ArrayDogs.add(NewDog);
         }
 
-        int command = 0;
+        int command;
         int choise = -1;
         do {
-            System.out.println("Введите соответсвующую цифру для команды:\n" +
-                    "0 - закончить программу\n" +
-                    "1 - выбрать собаку\n" +
-                    "2 - узнать возраст в человеческих годах\n" +
-                    "3 - установить возраст\n" +
-                    "4 - узнать возраст\n" +
-                    "5 - установить ключку\n" +
-                    "6 - узнать кличку\n" +
-                    "7 - узнать всё\n" +
-                    "8 - все собаки");
+            System.out.println("""
+                    Введите соответсвующую цифру для команды:
+                    0 - закончить программу
+                    1 - выбрать собаку
+                    2 - узнать возраст в человеческих годах
+                    3 - установить возраст
+                    4 - узнать возраст
+                    5 - установить ключку
+                    6 - узнать кличку
+                    7 - узнать всё
+                    8 - все собаки""");
             command = src.nextInt();
             switch (command) {
-                case 0:
-                    break;
-                case 1:
+                case 0 -> {
+                }
+                case 1 -> {
                     System.out.print("Какую собаку выбираете? номер: ");
                     choise = src.nextInt();
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println(ArrayDogs.get(choise).toHumanAge());
                     }
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println("Введите новый возраст: ");
                         ArrayDogs.get(choise).setAge(src.nextInt());
                     }
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println(ArrayDogs.get(choise).getAge());
                     }
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println("Введите новую кличку: ");
                         ArrayDogs.get(choise).setNickname(src.next());
                     }
-                    break;
-                case 6:
+                }
+                case 6 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println(ArrayDogs.get(choise).getNickname());
                     }
-                    break;
-                case 7:
+                }
+                case 7 -> {
                     if (Objects.equals(choise, -1)) {
                         System.out.println("Собака не выбрана");
                     } else {
                         System.out.println(ArrayDogs.get(choise).toString());
                     }
-                    break;
-                case 8:
-                    System.out.println(ArrayDogs.toString());
-                    break;
-                default:
-                    System.out.println("Неверная команда!");
+                }
+                case 8 -> System.out.println(ArrayDogs);
+                default -> System.out.println("Неверная команда!");
             }
         } while (command != 0);
     }
