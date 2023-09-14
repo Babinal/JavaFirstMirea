@@ -46,13 +46,38 @@ class TestShop {
         ArrayList.add("MX-12");
         Shop market = new Shop(ArrayList);
         Scanner src = new Scanner(System.in);
+        System.out.println("Введите соответсвующую цифру для команды:\n" +
+                "0 - закончить программу\n" +
+                "1 - поиск компьютера\n" +
+                "2 - ввод компьютера в базу\n" +
+                "3 - удалить компьютер из системы\n" +
+                "4 - вывод список компьютеров\n");
 
-        market.addComputer("JForce-MX16");
-        System.out.print("Какой компьютер хотели бы найти, название: ");
-        System.out.println(market.toString());
-        market.findComputer(src.next());
-        System.out.print("Введите название компьютера, который нужно убрать из магазина: ");
-        market.removeComputer(src.next());
-        System.out.println(market.toString());
+        int command;
+        do {
+            command = src.nextInt();
+
+            switch (command) {
+                case 0:
+                    break;
+                case 1:
+                    System.out.print("Какой компьютер хотели бы найти? название: ");
+                    market.findComputer(src.next());
+                    break;
+                case 2:
+                    System.out.println("Какой компьютер добавить в базу? название: ");
+                    market.addComputer(src.next());
+                    break;
+                case 3:
+                    System.out.print("Какой компьютер нужно убрать из магазина? название: ");
+                    market.removeComputer(src.next());
+                    break;
+                case 4:
+                    System.out.println(market.toString());
+                    break;
+                default:
+                    System.out.println("Неверная команда!");
+            }
+        } while (command != 0);
     }
 }

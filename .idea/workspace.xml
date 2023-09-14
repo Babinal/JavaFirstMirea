@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Mini changes in ThirdProgram">
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Shop.java" afterDir="false" />
+    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Added 4 programs from second work">
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task2/HowMany.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mirea/task2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/mirea/task2/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -58,13 +58,13 @@
       <recent name="ru.mirea.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestShop">
-    <configuration name="FifthProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task1.FifthProgram" />
+  <component name="RunManager" selected="Application.DogKennel">
+    <configuration name="DogKennel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.DogKennel" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task1.*" />
+          <option name="PATTERN" value="ru.mirea.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestAuthor" />
+    <configuration name="IndexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.IndexOf" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestAuthor" />
+      <item itemvalue="Application.DogKennel" />
+      <item itemvalue="Application.IndexOf" />
       <item itemvalue="Application.TestBall" />
       <item itemvalue="Application.TestCircleNPoint" />
       <item itemvalue="Application.TestShop" />
-      <item itemvalue="Application.FifthProgram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DogKennel" />
+        <item itemvalue="Application.IndexOf" />
         <item itemvalue="Application.TestShop" />
         <item itemvalue="Application.TestCircleNPoint" />
         <item itemvalue="Application.TestBall" />
-        <item itemvalue="Application.TestAuthor" />
-        <item itemvalue="Application.FifthProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694030292101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added 4 programs from second work">
+      <option name="closed" value="true" />
+      <created>1694419092039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694419092039</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +208,7 @@
     <MESSAGE value="Create Project" />
     <MESSAGE value="First work done" />
     <MESSAGE value="Mini changes in ThirdProgram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mini changes in ThirdProgram" />
+    <MESSAGE value="Added 4 programs from second work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 4 programs from second work" />
   </component>
 </project>

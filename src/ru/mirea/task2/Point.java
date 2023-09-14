@@ -10,22 +10,6 @@ public class Point {
         this.y = y;
     }
 
-    public double getX() {
-        return x;
-    }
-
-    public void setX(double x) {
-        this.x = x;
-    }
-
-    public double getY() {
-        return y;
-    }
-
-    public void setY(double y) {
-        this.y = y;
-    }
-
     @Override
     public String toString() {
         return "Point{" +
@@ -41,22 +25,6 @@ class Circle {
 
     public Circle(Point center, double radius) {
         this.center = center;
-        this.radius = radius;
-    }
-
-    public Point getCenter() {
-        return center;
-    }
-
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setCenter(Point center) {
-        this.center = center;
-    }
-
-    public void setRadius(double radius) {
         this.radius = radius;
     }
 
