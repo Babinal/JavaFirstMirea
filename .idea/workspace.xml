@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Added 2 programs from second work and some another changes">
+    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="some changes with Dogs :D">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task3/FirstProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task3/ThirdProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task4/SeasonsTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task4_1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task6/Movable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task7/MathCalculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task8/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task8/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task8/Task8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/mirea/task2/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/mirea/task2/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "C:/Users/Jaffar Lazair/IdeaProjects/JavaFirstMirea/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -55,13 +65,13 @@
       <recent name="ru.mirea.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DogKennel">
-    <configuration name="DogKennel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.DogKennel" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task3.FirstProgram" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task2.*" />
+          <option name="PATTERN" value="ru.mirea.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.IndexOf" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task7.Main" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task2.*" />
+          <option name="PATTERN" value="ru.mirea.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestBall" />
+    <configuration name="SeasonsTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task4.SeasonsTime" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task2.*" />
+          <option name="PATTERN" value="ru.mirea.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircleNPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestCircleNPoint" />
+    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task8.Task7" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task2.*" />
+          <option name="PATTERN" value="ru.mirea.task8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task2.TestShop" />
+    <configuration name="ThirdProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task3.ThirdProgram" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task2.*" />
+          <option name="PATTERN" value="ru.mirea.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DogKennel" />
-      <item itemvalue="Application.IndexOf" />
-      <item itemvalue="Application.TestBall" />
-      <item itemvalue="Application.TestCircleNPoint" />
-      <item itemvalue="Application.TestShop" />
+      <item itemvalue="Application.FirstProgram" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SeasonsTime" />
+      <item itemvalue="Application.Task7" />
+      <item itemvalue="Application.ThirdProgram" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DogKennel" />
-        <item itemvalue="Application.IndexOf" />
-        <item itemvalue="Application.TestShop" />
-        <item itemvalue="Application.TestCircleNPoint" />
-        <item itemvalue="Application.TestBall" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SeasonsTime" />
+        <item itemvalue="Application.ThirdProgram" />
+        <item itemvalue="Application.FirstProgram" />
+        <item itemvalue="Application.Task7" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694722373807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="some changes with Dogs :D">
+      <option name="closed" value="true" />
+      <created>1694722849111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694722849111</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +233,7 @@
     <MESSAGE value="Mini changes in ThirdProgram" />
     <MESSAGE value="Added 4 programs from second work" />
     <MESSAGE value="Added 2 programs from second work and some another changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 programs from second work and some another changes" />
+    <MESSAGE value="some changes with Dogs :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes with Dogs :D" />
   </component>
 </project>
