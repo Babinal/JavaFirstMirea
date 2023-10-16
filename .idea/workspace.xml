@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Added HomeWork from lecture">
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/extra_work/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/mirea/extra_work/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task11/work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task7/Stringable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task9/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task9/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
       <recent name="ru.mirea.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComplexTest (1)">
+  <component name="RunManager" selected="Application.TestString">
     <configuration name="ComplexTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mirea.extra_work.ComplexTest" />
       <module name="JavaFirstMirea" />
@@ -97,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeasonsTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task4.SeasonsTime" />
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task7.TestString" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task4.*" />
+          <option name="PATTERN" value="ru.mirea.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestString" />
       <item itemvalue="Application.ComplexTest" />
       <item itemvalue="Application.ComplexTest (1)" />
       <item itemvalue="Application.ru.mirea.extra_work.Main" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.SeasonsTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.ComplexTest (1)" />
         <item itemvalue="Application.ComplexTest" />
         <item itemvalue="Application.ru.mirea.extra_work.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SeasonsTime" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696681547609</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added HomeWork from lecture">
+      <option name="closed" value="true" />
+      <created>1697136552974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697136552974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
