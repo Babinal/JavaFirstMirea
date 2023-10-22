@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Added programs from lesson 13.10.2023 (Some changes in file's name)" />
+    <list default="true" id="14040083-0774-4958-97f3-a0d530a71a9e" name="Changes" comment="Added 2 programs from lesson 17.10.2023">
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task11/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task13/task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task13/task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task14/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task14/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task14/task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/mirea/task14/task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -53,13 +65,13 @@
       <recent name="ru.mirea.task2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckTime">
-    <configuration name="CheckTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task11.CheckTime" />
+  <component name="RunManager" selected="Application.task4">
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task14.task1" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task11.*" />
+          <option name="PATTERN" value="ru.mirea.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.extra_work.ComplexTest" />
+    <configuration name="task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task14.task2" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.extra_work.*" />
+          <option name="PATTERN" value="ru.mirea.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.extra_work.ComplexTest" />
+    <configuration name="task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task14.task3" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.extra_work.*" />
+          <option name="PATTERN" value="ru.mirea.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.task7.TestString" />
+    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task14.task4" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.task7.*" />
+          <option name="PATTERN" value="ru.mirea.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.mirea.extra_work.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mirea.extra_work.Main" />
+    <configuration name="task5 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mirea.task13.task5" />
       <module name="JavaFirstMirea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mirea.extra_work.*" />
+          <option name="PATTERN" value="ru.mirea.task13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckTime" />
-      <item itemvalue="Application.TestString" />
-      <item itemvalue="Application.ComplexTest" />
-      <item itemvalue="Application.ComplexTest (1)" />
-      <item itemvalue="Application.ru.mirea.extra_work.Main" />
+      <item itemvalue="Application.task1" />
+      <item itemvalue="Application.task2" />
+      <item itemvalue="Application.task3" />
+      <item itemvalue="Application.task4" />
+      <item itemvalue="Application.task5 (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckTime" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.ComplexTest (1)" />
-        <item itemvalue="Application.ComplexTest" />
-        <item itemvalue="Application.ru.mirea.extra_work.Main" />
+        <item itemvalue="Application.task4" />
+        <item itemvalue="Application.task3" />
+        <item itemvalue="Application.task2" />
+        <item itemvalue="Application.task1" />
+        <item itemvalue="Application.task5 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697471599122</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added 2 programs from lesson 17.10.2023">
+      <option name="closed" value="true" />
+      <created>1697598625901</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697598625901</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +278,7 @@
     <MESSAGE value="Added HomeWork from lecture" />
     <MESSAGE value="Added programs from lesson 13.10.2023" />
     <MESSAGE value="Added programs from lesson 13.10.2023 (Some changes in file's name)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added programs from lesson 13.10.2023 (Some changes in file's name)" />
+    <MESSAGE value="Added 2 programs from lesson 17.10.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 programs from lesson 17.10.2023" />
   </component>
 </project>
